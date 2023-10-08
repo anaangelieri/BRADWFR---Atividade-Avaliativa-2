@@ -1,0 +1,40 @@
+.Menu {
+    display: flex;
+    background-color: #7E9F35;
+    width: 70vw;
+    margin-left: -4vw;
+}
+
+.Menu nav {
+    flex: 1;
+}
+
+.Menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Menu ul li {
+    display: flex;
+}
+
+.Menu ul li a {
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.5);
+    font-size: 1.5rem;
+    flex: 1;
+}
+
+.Menu li a:hover {
+    background-color: rgba(0, 0, 0, .2);
+}
+/* Celular */
+@media only screen and (max-width: 640px) {
+    .Menu{
+        width: 75vw;
+        margin-left: 11vw;
+    }
+}
